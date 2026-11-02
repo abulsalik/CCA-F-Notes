@@ -2855,7 +2855,7 @@ body[data-not-sent] > #vis-container ~ #not-sent {
 </div>
 <script>
 const S=[
-{a:[1],t:"Before anyone talks",b:"The manager keeps a drawer for every conversation, labeled with a session_id (7781). He also keeps a rule card: “You are a support agent for Acme. Be brief.” That rule card is the system prompt.",g:"Your gap: the system prompt is the rule card the manager hands to the consultant — words for Claude. It is not the app or “the system.”"},
+{a:[1],t:"Before anyone talks",b:"The manager keeps a drawer for every conversation, labeled with a session_id (7781). He also keeps a rule card: “You are a support agent for Acme. Be brief.” That rule card is the system prompt."},
 {a:[0],t:"Dana walks in",b:"“Hi, I’m Dana. Order 4417 hasn’t arrived.”"},
 {a:[1],t:"Manager builds the folder",b:"He opens drawer 7781 (empty — it’s a new chat), files Dana’s message, and hands the consultant a folder:",f:"system:   rule card\ntools:    get_customer, lookup_order, process_refund\nmessages:\n  user:   Hi, I’m Dana. Order 4417 hasn’t arrived.",g:"Your gap: the session_id stays in the manager’s office. The consultant never sees the drawer, only the folder."},
 {a:[2],t:"Consultant replies",b:"He says “Let me check that, Dana” and writes a note: look up order 4417. Then he sticks a label on his reply.",l:"stop_reason: tool_use",g:"Your gap: the consultant asks. He never runs the lookup himself, and he doesn’t loop."},
