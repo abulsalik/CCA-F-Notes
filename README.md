@@ -222,7 +222,7 @@ ________________________________________________________________________________
 | `preview_delete_workspace` | `workspace_id` | The impact, plus a one-time `confirmation_token` |
 | `execute_delete_workspace` | `workspace_id`, `confirmation_token` | Deletes, but <b>only</b> if the token is valid |
 
-## Step by step
+## Step by step {TBF}
 
 Click each step to open it.
 
